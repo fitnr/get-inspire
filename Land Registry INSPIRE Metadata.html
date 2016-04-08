@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=IE7" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+    <title>Land Registry INSPIRE Download Service Metadata - Datasets</title>
+
+    
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+    
+  
+
+  <link rel="stylesheet" href="/assets/css/datagovuk.min.css?1454598022876" />
+  <link rel="stylesheet" href="/css/dgu-ckan.min.css?1454350510235" />
+
+
+    
+  
+  <script type="text/javascript">
+    CKAN = {};
+    // later use will add offsets with leading '/' so ensure no trailing slash
+    CKAN.SITE_URL = '/'.replace(/\/$/, '');
+    CKAN.SITE_URL_NO_LOCALE = '/'.replace(/\/$/, '');
+    CKAN.USER = '';
+  </script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script>
+    //<![CDATA[
+    window.jQuery || document.write('<script src="/assets/js/jquery-1.8.3.min.js"><\/script>')
+    // ]]>
+  </script>
+  <script type="text/javascript">
+    document.getElementsByTagName('html')[0].className += ' js-enabled';
+  </script>
+
+  <!-- Vendor scripts -->
+  <script type="text/javascript" src="/assets/js/vendor.min.js?1454598022876"></script>
+  <!-- CKAN DGU scripts -->
+  <script type="text/javascript" src="/assets/js/dgu-shared.min.js?1454350510235"></script>
+  <script type="text/javascript" src="/scripts/dgu-ckan-application.min.js?1454350510235"></script>
+
+  
+    <link rel="alternate" type="application/rdf+xml" href="/dataset/land-registry-inspire-download-service-metadata.rdf"/>
+    <script type="text/javascript" src="/scripts/dgu-package.min.js"></script>
+
+    <script type="text/javascript">
+      window.DATASET_ID = "cf85787c-3332-4cf1-b72d-b434acfab911";
+    </script>
+
+    
+      <script src="//osinspiremappingprod.ordnancesurvey.co.uk/libraries/openlayers-openlayers-56e25fc/OpenLayers.js" type="text/javascript"></script>
+      <script type="text/javascript" src="/scripts/dgu-dataset-map.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          CKAN.DguDatasetMap.tiles_url = "http://osinspiremappingprod.ordnancesurvey.co.uk/geoserver/gwc/service/wms?key=0822e7b98adf11e1a66e183da21c99ac";
+          CKAN.DguDatasetMap.map_type = 'os';
+          CKAN.DguDatasetMap.extent = '{"type": "Polygon", "coordinates": [[[1.74944, 49.9553], [1.74944, 60.8433], [-8.17167, 60.8433], [-8.17167, 49.9553], [1.74944, 49.9553]]]}';
+          CKAN.DguDatasetMap.setup();
+        })
+      </script>
+      <style type="text/css">
+        #dataset-map-container img { max-width: inherit; }
+      </style>
+      
+
+    
+  
+
+
+  
+  <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- font-awesome ie7 shim -->
+  <!--[if IE 7]>
+    <link rel="stylesheet" media="all" href="/assets/css/font-awesome-ie7.min.css" />
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+      <link href="/assets/css/dgu-ie7.css" rel="stylesheet" />
+  <![endif]-->
+
+
+    
+  </head>
+
+  
+  <body
+ class="action-read read
+        controller-package PackageController
+        no-sidebar
+        "
+      id=""
+>
+
+    
+  
+    
+
+  <div id="blackbar" class="without-publisher">
+    <div class="container">
+      <a class="brand" href="/" rel="home"></a>
+      <div class="chevron position2"></div>
+      <nav id="dgu-nav">
+        <div class="text-links">
+           <a href="/" class="nav-home">Home</a>
+           <a href="/data" class="trigger-subnav nav-data">Data</a>
+           <a href="/apps" class="trigger-subnav nav-apps">Apps</a>
+           <a href="/interact" class="trigger-subnav nav-interact">Interact</a>
+         </div>
+        <div class="nav-search" style="width: 200px;">
+          <form action="/data/search" class="input-group input-group-sm">
+            <input type="text" name="q" class="form-control" placeholder="Search for data..." />
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+            </span>
+          </form>
+        </div>
+
+        <a class="nav-user btn btn-primary" href="/user?destination=dataset/land-registry-inspire-download-service-metadata"><i class="icon-user"></i></a>
+
+        
+      </nav>
+    </div>
+  </div>
+  <div id="greenbar">
+    <div class="container">
+      
+      <ul class="subnav subnav-data active">
+        <li><a class="active" href="/data/search">Datasets</a></li>
+        <li><a class="" href="/data/map-based-search">Map Search</a></li>
+        <li><a class="" href="/data-request">Data Requests</a></li>
+        <li><a class="" href="/publisher">Publishers</a></li>
+        <li><a  href="https://data.gov.uk/data/api">Data API</a></li>
+        <li><a class="" href="/organogram/cabinet-office">Organograms</a></li>
+        
+        
+          <li><a class="" href="/data/site-usage">Site Analytics</a></li>
+        
+        <li><a class="" href="/data/report">Reports</a></li>
+        <li><a class="" href="/data/contracts-finder-archive">Contracts</a></li>
+        <br/>
+
+        
+      </ul>
+
+      <ul class="subnav subnav-interact">
+        <li><a href="/location">Location</a></li>
+        <li><a href="/linked-data">Linked Data</a></li>
+        <li><a href="/blog">All Blogs</a></li>
+        <li><a href="/forum">All Forums</a></li>
+        <li><a href="/library">Library</a></li>
+        <li><a href="/glossary">Open data glossary</a></li>
+        <li><a href="/search/everything">Search content</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  
+    <div role="main">
+    
+    <div class="toolbar">
+        
+        <div id="pre-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                        <ul id="breadcrumbs">
+                            <li><a href="/"><i class="icon-home"></i></a></li>
+                            
+  <li><a href="/data/search">Datasets</a></li>
+  <li><a href="/dataset/land-registry-inspire-download-service-metadata">Land Registry INSPIRE Download Service Metadata</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="flash-messages container">
+            
+            
+            
+        </div>
+        
+    </div>
+    
+      <div id="content">
+        
+
+          <div class="container wrapper">
+
+            
+            
+            
+
+            
+              <aside class="secondary">
+                
+                
+              </aside>
+            
+
+            
+              <div class="primary">
+                
+                
+                  <article class="module">
+                    
+                      <header class="module-content">
+                        
+                      </header>
+                    
+                    <div class="module-content">
+                      
+                      
+  <div class="package">
+  
+    <div class="dropdown-buttons">
+        
+        
+        
+        <span class="dropdown">
+          <a href="#" class="js-tooltip dropdown-button" data-placement="top" data-delay="300" data-toggle="dropdown" title="" data-original-title="Contact&nbsp;Details">
+            <i class="icon-envelope icon-2x"></i>
+            <div class="dropdown-chevron"></div>
+          </a>
+          <div class="panel panel-default dropdown-menu" role="menu" aria-labelledby="dLabel">
+            <div class="panel-heading">Contacts</div>
+            <div class="panel-body">
+              
+                <b>Enquiries:</b>
+                <ul style="margin-bottom: 5px;">
+                  Departmental Records Officer
+                  
+  <!--! Contact details -->
+      
+        <li>Email:
+          <a href="mailto:customersupport@landregistry.gov.uk">customersupport@landregistry.gov.uk</a>
+        </li>
+      
+
+      
+      
+      
+
+                </ul>
+              
+              
+                <b class="js-tooltip" title="Use the Freedom of Information Act to request more information from the body holding the data">FOI requests</b>:
+                <ul style="margin-bottom: 0;">
+                  Freedom of Information Officer
+                  
+  <!--! Contact details -->
+      
+        <li>Email:
+          <a href="mailto:FOI@landregistry.gsi.gov.uk">FOI@landregistry.gsi.gov.uk</a>
+        </li>
+      
+
+      
+      
+      <li>Web:
+        <a href="https://www.gov.uk/government/organisations/land-registry/about/publication-scheme">https://www.gov.uk/government...</a>
+      </li>
+      
+      
+
+                </ul>
+              
+            </div>
+          </div>
+        </span>
+        
+      <span class="dropdown">
+        <a href="#" class="js-tooltip dropdown-button" data-placement="top" data-delay="300" data-toggle="dropdown" title="" data-original-title="Metadata&nbsp;API">
+          <span class="api-icon">
+              <i class="icon-code icon-2x"></i>
+          </span>
+          <div class="dropdown-chevron api-chevron" ></div>
+        </a>
+        <div class="panel panel-default dropdown-menu" role="menu" aria-labelledby="dLabel">
+          <div class="panel-heading">Metadata API</div>
+          <div class="panel-body">
+            <p>The information on this page (the dataset metadata) is also available in JSON format.</p>
+            <ul>
+              <li>
+                <b><a href="/api/3/action/package_show?id=land-registry-inspire-download-service-metadata"  target="_blank">Metadata JSON for this dataset</a></b>
+              </li>
+              <li>
+                <b><a href="/data/metadata-api-docs">
+                  Metadata API Documentation
+                </a></b>
+              </li>
+              </ul>
+              <ul>
+              <li>
+                <b><a href="/dataset/land-registry-inspire-download-service-metadata/datapackage.json" target="_blank">Data Package JSON</a></b>
+              </li>
+              <li>
+                <b><a href="http://dataprotocols.org/data-packages/" target="_blank">Data Package JSON Documentation</a></b>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </span>
+      
+    </div>
+    <h1>Land Registry INSPIRE Download Service Metadata </h1>
+    <div class="h1-subheading" id="license-info">
+      
+      
+
+      
+        Published by
+        <a href="/publisher/land-registry">
+          Land Registry.
+        </a>
+      
+      &nbsp;
+      <span property="dc:rights">
+        
+          Licensed under
+        
+        
+          
+            
+            
+            
+              <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="dc:rights">
+                <img class="open-government-licence" src="/images/ogl-symbol.png" alt="[Open Government Licence]" />
+                Open Government Licence</a> &amp; 
+            
+          
+
+          <!--
+          &nbsp;
+          
+            <span class="closed"><img src="/images/icons/lock.png" height="16px" width="16px" alt="None" class="inline-icon " /> </span>
+          -->
+        
+          
+            
+            
+            
+              
+                <span rel="dc:rights"><em>&ldquo;Under the OGL, Land Registry permits you to use the data for commercial or non-commercial purposes. However, as the licence says, OGL does not cover the use of third party rights which we are not authorised to license. Land Registry uses Ordnance Survey data in the preparation of the polygons and therefore you should contact Ordnance Survey for the relevant licence conditions if you require to: 
+(a) use the polygons (including the associated geometry, namely x,y co-ordinates) for a purpose other than personal, non-commercial use or commercial or non-commercial use within your organisation; or
+(b) sub-license, distribute, sell or make available the polygons (including the associated geometry, namely x,y co-ordinates) to third parties.&rdquo;</em>.</span>
+              
+            
+          
+
+          <!--
+          &nbsp;
+          
+            <span class="closed"><img src="/images/icons/lock.png" height="16px" width="16px" alt="None" class="inline-icon " /> </span>
+          -->
+        
+      </span>
+      <a href="#" class="license-read-more">Read More</a>
+    </div>
+
+    <div class="dataset-stars h1-subheading" style="margin-top: 0px;margin-bottom: 12px;">
+      
+      Openness rating:
+      <span class="star-rating">
+        <span class="tooltip">
+          
+          
+            <div class="star-rating-entry fail">&#9733&#9733&#9733&#9733&#9733&nbsp; Linked data - data URIs and linked to other data (e.g. RDF)</div>
+          
+            <div class="star-rating-entry fail">&#9733&#9733&#9733&#9733&#9734&nbsp; Linkable data - served at URIs (e.g. RDF)</div>
+          
+            <div class="star-rating-entry fail">&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</div>
+          
+            <div class="star-rating-entry fail">&#9733&#9733&#9734&#9734&#9734&nbsp; Structured data but proprietry format (e.g. Excel)</div>
+          
+            <div class="star-rating-entry fail">&#9733&#9734&#9734&#9734&#9734&nbsp; Unstructured data (e.g. PDF)</div>
+          
+          
+        </span>
+        <a href="http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/" target="_blank">
+          
+          
+            <i class="icon-star-empty"></i>
+          
+            <i class="icon-star-empty"></i>
+          
+            <i class="icon-star-empty"></i>
+          
+            <i class="icon-star-empty"></i>
+          
+            <i class="icon-star-empty"></i>
+          
+        </a>
+        
+      </span>
+
+      
+
+      
+
+    </div>
+
+
+
+    <div class="row">
+
+        
+        
+        
+        
+        
+        
+        
+
+      <div class="col-md-12">
+        <!-- Description -->
+        <p class="pre-notes">
+          <b>Provider:</b> Land Registry
+        </p>
+        
+        <p class="pre-notes">
+          <b>Responsible Party:</b> Land Registry (publisher)
+        </p>
+        
+        
+        <!-- blank style tag avoids a bug in jquery.dotdotdot -->
+        <div class="notes" style="">
+          <div class="dataset-theme theme-Mapping">
+            <div class="theme-name">Mapping</div>
+          </div>
+          
+          <a
+            class="dataset-optional-logo"
+            href="/location"
+          >
+            <img src="/images/uk_location.gif" />
+          </a>
+
+          <div class="notes-inner">
+            <p>INSPIRE Polygons are a complete set of Freehold title extent indexes available for England and Wales. The data is structured to meet the requirements of the EU INSPIRE Directive. Land Registry’s INSPIRE download service allows you to download INSPIRE Index Polygons for a location of your choice. The data is presented as polygons that can be used with Geographic Information System (GIS) software or other software that can read the data.
+</p>
+            
+            <a href="#" class="notes-read-more"><i class="icon-double-angle-down"></i> Read More <i class="icon-double-angle-down"></i></a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Warn if unpublished -->
+    
+    <!-- Warn if deleted -->
+    
+
+    
+      
+
+    
+    
+
+    <!-- Warn if reading old revision -->
+    
+
+    <div class="row">
+      <div class="col-lg-push-2 col-lg-4 col-md-push-1 col-md-5 col-sm-7">
+        
+        <div class="dataset-map">
+          <!-- Dataset Extent Map (only if present) -->
+          
+            <div id="dataset-map-container"></div>
+          
+        </div>
+        
+      </div>
+      <div class="col-lg-push-2 col-lg-4 col-md-push-1 col-md-4 col-sm-5">
+        <div class="dataset-map-info">
+          
+          
+          <h3>Dataset Extent</h3>
+          <table class="table">
+            <tr>
+              <td class="key">Latitude:</td>
+              <td class="value">60.8433&deg; to 49.9553&deg;</td>
+            </tr>
+            <tr>
+              <td class="key">Longitude:</td>
+              <td class="value">-8.1716&deg; to 1.74944&deg;</td>
+            </tr>
+          </table>
+          
+          
+            <div id="dataset-map-attribution"></div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div id="dataset">
+      <!--! id=dataset for ckanext-spatial -->
+    </div>
+
+
+
+    
+    
+
+    
+      <h2>Data Package</h2>
+      
+        <p style="margin-bottom: 20px;">
+            The <a href="/dataset/land-registry-inspire-download-service-metadata/datapackage.zip">Data Package Zip</a> is not recommended for this dataset
+            <a class="js-tooltip" data-toggle="tooltip" data-html='true' data-placement="right" title="The zip file may not contain data. This occurs if the source data is not available, there are problems encountered during archival, or the data is only accessible via an API." href="javascript:0" style="text-decoration:none;color:#000;">
+              <i class="icon-info-sign"></i>
+            </a>
+        </p>
+      
+    
+
+      <div class="dataset-resources">
+        <!-- Resources -->
+        
+        
+      </div>
+
+    
+    <div class="dataset-resources-additional">
+      
+        <h2>Additional Links (2)</h2>
+        
+  <div class="row">
+    
+    <div class="col-sm-6">
+    <div class="dataset-resource">
+      <div class="dataset-resource-format">
+        <i class="icon-25x icon-file-text"></i>
+        <span class="format-name">
+          
+            XML
+          
+        </span>
+      </div>
+      <div class="dataset-resource-text">
+        <div class="inner">
+          <div class="inner2">
+            
+
+            
+            
+            Source GEMINI2 record
+          </div>
+        </div>
+      </div>
+      <div class="dropdown" style="pointer-events:none;">
+        <a href="#" class="dataset-resource-chevron" data-toggle="dropdown" style="pointer-events:auto;">
+          <i class="icon-chevron-down"></i>
+        </a>
+        
+          
+          
+        <ul class="dropdown-menu" role="menu" style="pointer-events:auto;">
+          
+            <li>
+              <a href="/api/2/rest/harvestobject/3471d382-af61-429d-aa32-ba7eddf615b8/xml" rel="dcat: distribution" target="_blank" onclick="var that=this;ga(&#39;send&#39;,&#39;event&#39;,&#39;resource&#39;,&#39;download&#39;,&#39;/api/2/rest/harvestobject/3471d382-af61-429d-aa32-ba7eddf615b8/xml&#39;);setTimeout(function(){location.href=that.href;},200);return false;">
+                <i class="icon-search"></i>&nbsp; View
+              </a>
+            </li>
+          
+
+          
+          
+            
+            
+            
+          
+        </ul><!-- /dropdown-mnu-->
+        
+      </div><!--/dropdown-->
+    </div><!-- /dataset-resource -->
+    </div><!-- /col-sm-6 -->
+    
+    <div class="col-sm-6">
+    <div class="dataset-resource">
+      <div class="dataset-resource-format">
+        <i class="icon-25x icon-file-text"></i>
+        <span class="format-name">
+          
+            HTML
+          
+        </span>
+      </div>
+      <div class="dataset-resource-text">
+        <div class="inner">
+          <div class="inner2">
+            
+
+            
+            
+            Source GEMINI2 record (formatted)
+          </div>
+        </div>
+      </div>
+      <div class="dropdown" style="pointer-events:none;">
+        <a href="#" class="dataset-resource-chevron" data-toggle="dropdown" style="pointer-events:auto;">
+          <i class="icon-chevron-down"></i>
+        </a>
+        
+          
+          
+        <ul class="dropdown-menu" role="menu" style="pointer-events:auto;">
+          
+            <li>
+              <a href="/api/2/rest/harvestobject/3471d382-af61-429d-aa32-ba7eddf615b8/html" rel="dcat: distribution" target="_blank" onclick="var that=this;ga(&#39;send&#39;,&#39;event&#39;,&#39;resource&#39;,&#39;download&#39;,&#39;/api/2/rest/harvestobject/3471d382-af61-429d-aa32-ba7eddf615b8/html&#39;);setTimeout(function(){location.href=that.href;},200);return false;">
+                <i class="icon-search"></i>&nbsp; View
+              </a>
+            </li>
+          
+
+          
+          
+            
+            
+            
+          
+        </ul><!-- /dropdown-mnu-->
+        
+      </div><!--/dropdown-->
+    </div><!-- /dataset-resource -->
+    </div><!-- /col-sm-6 -->
+    
+  </div>
+
+      
+
+      
+    </div>
+    
+
+    
+    <div class="dataset-additional-information" >
+      <!-- Dataset Information Section -->
+      <h2>Additional Information</h2>
+      <table class="table table-bordered table-condensed table-dgu-fixed-size dgu-table" style="margin-bottom: 45px;">
+        <tbody>
+          
+          <tr>
+            
+            <td class="key" >Added to data.gov.uk</td>
+            <td class="value" >27/08/2014</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Theme</td>
+            <td class="value" >Mapping</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Harvest URL</td>
+            <td class="value" >https://locationmde.data.gov.uk/metadata-harvesting/531766d9-4ec5-4fd8-bb86-a479a0107254/180-INSPIREDOWNLOADMETADATA.xml</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Harvest date</td>
+            <td class="value" >29/01/2016 14:43</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Metadata date</td>
+            <td class="value" >29/1/2016</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Harvest GUID</td>
+            <td class="value" >46d133c0-3bf1-48a9-a458-861993f70d90</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Harvest source reference</td>
+            <td class="value" >&lt;gmd:MD_Metadata xmlns:gml=&#34;http://www.opengis.net/gml/3.2&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34; xmlns:gco=&#34;http://www.isotc211.org/2005/gco&#34; xmlns:gmx=&#34;http://www.isotc211.org/2005/gmx&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; xmlns:gmd=&#34;http://www.isotc211.org/2005/gmd&#34; xsi:schemaLocation=&#34;http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd&#34;&gt;
+    &lt;gmd:fileIdentifier&gt;
+        &lt;gco:CharacterString&gt;46d133c0-3bf1-48a9-a458-861993f70d90&lt;/gco:CharacterString&gt;
+    &lt;/gmd:fileIdentifier&gt;
+    &lt;gmd:language&gt;
+        &lt;gmd:LanguageCode codeList=&#34;http://www.loc.gov/standards/iso639-2/php/code_list.php&#34; codeListValue=&#34;eng&#34;&gt;eng&lt;/gmd:LanguageCode&gt;
+    &lt;/gmd:language&gt;
+    &lt;gmd:hierarchyLevel&gt;
+        &lt;gmd:MD_ScopeCode codeList=&#34;http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode&#34; codeListValue=&#34;dataset&#34;&gt;dataset&lt;/gmd:MD_ScopeCode&gt;
+    &lt;/gmd:hierarchyLevel&gt;
+    &lt;gmd:contact&gt;
+        &lt;gmd:CI_ResponsibleParty&gt;
+            &lt;gmd:organisationName&gt;
+                &lt;gco:CharacterString&gt;Land Registry&lt;/gco:CharacterString&gt;
+            &lt;/gmd:organisationName&gt;
+            &lt;gmd:positionName&gt;
+                &lt;gco:CharacterString&gt;Geographic Data Manager&lt;/gco:CharacterString&gt;
+            &lt;/gmd:positionName&gt;
+            &lt;gmd:contactInfo&gt;
+                &lt;gmd:CI_Contact&gt;
+                    &lt;gmd:address&gt;
+                        &lt;gmd:CI_Address&gt;
+                            &lt;gmd:deliveryPoint&gt;
+                                &lt;gco:CharacterString&gt;Land Registry
+2 William Prance Road&lt;/gco:CharacterString&gt;
+                            &lt;/gmd:deliveryPoint&gt;
+                            &lt;gmd:city&gt;
+                                &lt;gco:CharacterString&gt;Plymouth&lt;/gco:CharacterString&gt;
+                            &lt;/gmd:city&gt;
+                            &lt;gmd:postalCode&gt;
+                                &lt;gco:CharacterString&gt;PL6 5WS&lt;/gco:CharacterString&gt;
+                            &lt;/gmd:postalCode&gt;
+                            &lt;gmd:country&gt;
+                                &lt;gco:CharacterString&gt;United Kingdom&lt;/gco:CharacterString&gt;
+                            &lt;/gmd:country&gt;
+                            &lt;gmd:electronicMailAddress&gt;
+                                &lt;gco:CharacterString&gt;SMSDataManagement@landregistry.gov.uk&lt;/gco:CharacterString&gt;
+                            &lt;/gmd:electronicMailAddress&gt;
+                        &lt;/gmd:CI_Address&gt;
+                    &lt;/gmd:address&gt;
+                &lt;/gmd:CI_Contact&gt;
+            &lt;/gmd:contactInfo&gt;
+            &lt;gmd:role&gt;
+                &lt;gmd:CI_RoleCode codeList=&#34;http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode&#34; codeListValue=&#34;pointOfContact&#34;&gt;pointOfContact&lt;/gmd:CI_RoleCode&gt;
+            &lt;/gmd:role&gt;
+        &lt;/gmd:CI_ResponsibleParty&gt;
+    &lt;/gmd:contact&gt;
+    &lt;gmd:dateStamp&gt;
+        &lt;gco:DateTime&gt;2016-01-29T14:37:37&lt;/gco:DateTime&gt;
+    &lt;/gmd:dateStamp&gt;
+    &lt;gmd:metadataStandardName&gt;
+        &lt;gco:CharacterString&gt;ISO 19115 (UK GEMINI)&lt;/gco:CharacterString&gt;
+    &lt;/gmd:metadataStandardName&gt;
+    &lt;gmd:metadataStandardVersion&gt;
+        &lt;gco:CharacterString&gt;1.0 (2.2)&lt;/gco:CharacterString&gt;
+    &lt;/gmd:metadataStandardVersion&gt;
+    &lt;gmd:referenceSystemInfo&gt;
+        &lt;gmd:MD_ReferenceSystem&gt;
+            &lt;gmd:referenceSystemIdentifier&gt;
+                &lt;gmd:RS_Identifier&gt;
+                    &lt;gmd:code&gt;
+                        &lt;gco:CharacterString&gt;http://www.opengis.net/def/crs/EPSG/0/27700&lt;/gco:CharacterString&gt;
+                    &lt;/gmd:code&gt;
+                &lt;/gmd:RS_Identifier&gt;
+            &lt;/gmd:referenceSystemIdentifier&gt;
+        &lt;/gmd:MD_ReferenceSystem&gt;
+    &lt;/gmd:referenceSystemInfo&gt;
+    &lt;gmd:identificationInfo&gt;
+        &lt;gmd:MD_DataIdentification&gt;
+            &lt;gmd:citation&gt;
+                &lt;gmd:CI_Citation&gt;
+                    &lt;gmd:title&gt;
+                        &lt;gco:CharacterString&gt;Land Registry INSPIRE Download Service Metadata&lt;/gco:CharacterString&gt;
+                    &lt;/gmd:title&gt;
+                    &lt;gmd:date&gt;
+                        &lt;gmd:CI_Date&gt;
+                            &lt;gmd:date&gt;
+                                &lt;gco:Date&gt;2014-08-03&lt;/gco:Date&gt;
+                            &lt;/gmd:date&gt;
+                            &lt;gmd:dateType&gt;
+                                &lt;gmd:CI_DateTypeCode codeList=&#34;http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode&#34; codeListValue=&#34;publication&#34;&gt;publication&lt;/gmd:CI_DateTypeCode&gt;
+                            &lt;/gmd:dateType&gt;
+                        &lt;/gmd:CI_Date&gt;
+                    &lt;/gmd:date&gt;
+                    &lt;gmd:identifier&gt;
+                        &lt;gmd:RS_Identifier&gt;
+                            &lt;gmd:code&gt;
+                                &lt;gco:CharacterString&gt;LRDM01&lt;/gco:CharacterString&gt;
+                            &lt;/gmd:code&gt;
+                            &lt;gmd:codeSpace&gt;
+                                &lt;gco:CharacterString&gt;unknown&lt;/gco:CharacterString&gt;
+                            &lt;/gmd:codeSpace&gt;
+                        &lt;/gmd:RS_Identifier&gt;
+                    &lt;/gmd:identifier&gt;
+                &lt;/gmd:CI_Citation&gt;
+            &lt;/gmd:citation&gt;
+            &lt;gmd:abstract&gt;
+                &lt;gco:CharacterString&gt;INSPIRE Polygons are a complete set of Freehold title extent indexes available for England and Wales. The data is structured to meet the requirements of the EU INSPIRE Directive. Land Registry&amp;#8217;s INSPIRE download service allows you to download INSPIRE Index Polygons for a location of your choice. The data is presented as polygons that can be used with Geographic Information System (GIS) software or other software that can read the data.&lt;/gco:CharacterString&gt;
+            &lt;/gmd:abstract&gt;
+            &lt;gmd:pointOfContact&gt;
+                &lt;gmd:CI_ResponsibleParty&gt;
+                    &lt;gmd:individualName&gt;
+                        &lt;gco:CharacterString&gt;Land Registry&lt;/gco:CharacterString&gt;
+                    &lt;/gmd:individualName&gt;
+                    &lt;gmd:organisationName&gt;
+                        &lt;gco:CharacterString&gt;Land Registry&lt;/gco:CharacterString&gt;
+                    &lt;/gmd:organisationName&gt;
+                    &lt;gmd:contactInfo&gt;
+                        &lt;gmd:CI_Contact&gt;
+                            &lt;gmd:address&gt;
+                                &lt;gmd:CI_Address&gt;
+                                    &lt;gmd:electronicMailAddress&gt;
+                                        &lt;gco:CharacterString&gt;customersupport@landregistry.gov.uk&lt;/gco:CharacterString&gt;
+                                    &lt;/gmd:electronicMailAddress&gt;
+                                &lt;/gmd:CI_Address&gt;
+                            &lt;/gmd:address&gt;
+                        &lt;/gmd:CI_Contact&gt;
+                    &lt;/gmd:contactInfo&gt;
+                    &lt;gmd:role&gt;
+                        &lt;gmd:CI_RoleCode codeList=&#34;http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode&#34; codeListValue=&#34;publisher&#34;&gt;publisher&lt;/gmd:CI_RoleCode&gt;
+                    &lt;/gmd:role&gt;
+                &lt;/gmd:CI_ResponsibleParty&gt;
+            &lt;/gmd:pointOfContact&gt;
+            &lt;gmd:resourceMaintenance&gt;
+                &lt;gmd:MD_MaintenanceInformation&gt;
+                    &lt;gmd:maintenanceAndUpdateFrequency&gt;
+                        &lt;gmd:MD_MaintenanceFrequencyCode codeList=&#34;http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode&#34; codeListValue=&#34;monthly&#34;&gt;monthly&lt;/gmd:MD_MaintenanceFrequencyCode&gt;
+                    &lt;/gmd:maintenanceAndUpdateFrequency&gt;
+                &lt;/gmd:MD_MaintenanceInformation&gt;
+            &lt;/gmd:resourceMaintenance&gt;
+            &lt;gmd:descriptiveKeywords&gt;
+                &lt;gmd:MD_Keywords&gt;
+                    &lt;gmd:keyword&gt;
+                        &lt;gco:CharacterString&gt;land_and_property_register&lt;/gco:CharacterString&gt;
+                    &lt;/gmd:keyword&gt;
+                    &lt;gmd:thesaurusName&gt;
+                        &lt;gmd:CI_Citation&gt;
+                            &lt;gmd:title&gt;
+                                &lt;gco:CharacterString&gt;GEMET - Concepts, version 2.4&lt;/gco:CharacterString&gt;
+                            &lt;/gmd:title&gt;
+                            &lt;gmd:date&gt;
+                                &lt;gmd:CI_Date&gt;
+                                    &lt;gmd:date&gt;
+                                        &lt;gco:Date&gt;2010-01-13&lt;/gco:Date&gt;
+                                    &lt;/gmd:date&gt;
+                                    &lt;gmd:dateType&gt;
+                                        &lt;gmd:CI_DateTypeCode codeList=&#34;http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode&#34; codeListValue=&#34;revision&#34;&gt;revision&lt;/gmd:CI_DateTypeCode&gt;
+                                    &lt;/gmd:dateType&gt;
+                                &lt;/gmd:CI_Date&gt;
+                            &lt;/gmd:date&gt;
+                        &lt;/gmd:CI_Citation&gt;
+                    &lt;/gmd:thesaurusName&gt;
+                &lt;/gmd:MD_Keywords&gt;
+            &lt;/gmd:descriptiveKeywords&gt;
+            &lt;gmd:descriptiveKeywords&gt;
+                &lt;gmd:MD_Keywords&gt;
+                    &lt;gmd:keyword&gt;
+                        &lt;gco:CharacterString&gt;Cadastral parcels&lt;/gco:CharacterString&gt;
+                    &lt;/gmd:keyword&gt;
+                    &lt;gmd:thesaurusName&gt;
+                        &lt;gmd:CI_Citation&gt;
+                            &lt;gmd:title&gt;
+                                &lt;gco:CharacterString&gt;GEMET - INSPIRE themes, version 1.0&lt;/gco:CharacterString&gt;
+                            &lt;/gmd:title&gt;
+                            &lt;gmd:date&gt;
+                                &lt;gmd:CI_Date&gt;
+                                    &lt;gmd:date&gt;
+                                        &lt;gco:Date&gt;2008-06-01&lt;/gco:Date&gt;
+                                    &lt;/gmd:date&gt;
+                                    &lt;gmd:dateType&gt;
+                                        &lt;gmd:CI_DateTypeCode codeList=&#34;http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode&#34; codeListValue=&#34;publication&#34;&gt;publication&lt;/gmd:CI_DateTypeCode&gt;
+                                    &lt;/gmd:dateType&gt;
+                                &lt;/gmd:CI_Date&gt;
+                            &lt;/gmd:date&gt;
+                        &lt;/gmd:CI_Citation&gt;
+                    &lt;/gmd:thesaurusName&gt;
+                &lt;/gmd:MD_Keywords&gt;
+            &lt;/gmd:descriptiveKeywords&gt;
+            &lt;gmd:resourceConstraints&gt;
+                &lt;gmd:MD_LegalConstraints&gt;
+                    &lt;gmd:accessConstraints&gt;
+                        &lt;gmd:MD_RestrictionCode codeList=&#34;http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode&#34; codeListValue=&#34;otherRestrictions&#34;&gt;otherRestrictions&lt;/gmd:MD_RestrictionCode&gt;
+                    &lt;/gmd:accessConstraints&gt;
+                    &lt;gmd:otherConstraints&gt;
+                        &lt;gco:CharacterString&gt;Open Government Licence see  &#34;Use Constraints&#34;&lt;/gco:CharacterString&gt;
+                    &lt;/gmd:otherConstraints&gt;
+                &lt;/gmd:MD_LegalConstraints&gt;
+            &lt;/gmd:resourceConstraints&gt;
+            &lt;gmd:resourceConstraints&gt;
+                &lt;gmd:MD_Constraints&gt;
+                    &lt;gmd:useLimitation&gt;
+                        &lt;gco:CharacterString&gt;Under the OGL, Land Registry permits you to use the data for commercial or non-commercial purposes. However, as the licence says, OGL does not cover the use of third party rights which we are not authorised to license. Land Registry uses Ordnance Survey data in the preparation of the polygons and therefore you should contact Ordnance Survey for the relevant licence conditions if you require to: 
+(a) use the polygons (including the associated geometry, namely x,y co-ordinates) for a purpose other than personal, non-commercial use or commercial or non-commercial use within your organisation; or
+(b) sub-license, distribute, sell or make available the polygons (including the associated geometry, namely x,y co-ordinates) to third parties.&lt;/gco:CharacterString&gt;
+                    &lt;/gmd:useLimitation&gt;
+                &lt;/gmd:MD_Constraints&gt;
+            &lt;/gmd:resourceConstraints&gt;
+            &lt;gmd:spatialResolution&gt;
+                &lt;gmd:MD_Resolution&gt;
+                    &lt;gmd:equivalentScale&gt;
+                        &lt;gmd:MD_RepresentativeFraction&gt;
+                            &lt;gmd:denominator&gt;
+                                &lt;gco:Integer&gt;10000&lt;/gco:Integer&gt;
+                            &lt;/gmd:denominator&gt;
+                        &lt;/gmd:MD_RepresentativeFraction&gt;
+                    &lt;/gmd:equivalentScale&gt;
+                &lt;/gmd:MD_Resolution&gt;
+            &lt;/gmd:spatialResolution&gt;
+            &lt;gmd:language&gt;
+                &lt;gmd:LanguageCode codeList=&#34;http://www.loc.gov/standards/iso639-2/php/code_list.php&#34; codeListValue=&#34;eng&#34;&gt;eng&lt;/gmd:LanguageCode&gt;
+            &lt;/gmd:language&gt;
+            &lt;gmd:topicCategory&gt;
+                &lt;gmd:MD_TopicCategoryCode&gt;planningCadastre&lt;/gmd:MD_TopicCategoryCode&gt;
+            &lt;/gmd:topicCategory&gt;
+            &lt;gmd:extent&gt;
+                &lt;gmd:EX_Extent&gt;
+                    &lt;gmd:geographicElement&gt;
+                        &lt;gmd:EX_GeographicBoundingBox&gt;
+                            &lt;gmd:westBoundLongitude&gt;
+                                &lt;gco:Decimal&gt;-8.17167&lt;/gco:Decimal&gt;
+                            &lt;/gmd:westBoundLongitude&gt;
+                            &lt;gmd:eastBoundLongitude&gt;
+                                &lt;gco:Decimal&gt;1.74944&lt;/gco:Decimal&gt;
+                            &lt;/gmd:eastBoundLongitude&gt;
+                            &lt;gmd:southBoundLatitude&gt;
+                                &lt;gco:Decimal&gt;49.9553&lt;/gco:Decimal&gt;
+                            &lt;/gmd:southBoundLatitude&gt;
+                            &lt;gmd:northBoundLatitude&gt;
+                                &lt;gco:Decimal&gt;60.8433&lt;/gco:Decimal&gt;
+                            &lt;/gmd:northBoundLatitude&gt;
+                        &lt;/gmd:EX_GeographicBoundingBox&gt;
+                    &lt;/gmd:geographicElement&gt;
+                    &lt;gmd:temporalElement&gt;
+                        &lt;gmd:EX_TemporalExtent&gt;
+                            &lt;gmd:extent&gt;
+                                &lt;gml:TimePeriod gml:id=&#34;_d4470e82&#34;&gt;
+                                    &lt;gml:beginPosition indeterminatePosition=&#34;unknown&#34;/&gt;
+                                    &lt;gml:endPosition indeterminatePosition=&#34;unknown&#34;/&gt;
+                                &lt;/gml:TimePeriod&gt;
+                            &lt;/gmd:extent&gt;
+                        &lt;/gmd:EX_TemporalExtent&gt;
+                    &lt;/gmd:temporalElement&gt;
+                &lt;/gmd:EX_Extent&gt;
+            &lt;/gmd:extent&gt;
+        &lt;/gmd:MD_DataIdentification&gt;
+    &lt;/gmd:identificationInfo&gt;
+    &lt;gmd:distributionInfo&gt;
+        &lt;gmd:MD_Distribution&gt;
+            &lt;gmd:distributionFormat&gt;
+                &lt;gmd:MD_Format&gt;
+                    &lt;gmd:name&gt;
+                        &lt;gco:CharacterString&gt;unknown&lt;/gco:CharacterString&gt;
+                    &lt;/gmd:name&gt;
+                    &lt;gmd:version&gt;
+                        &lt;gco:CharacterString&gt;unknown&lt;/gco:CharacterString&gt;
+                    &lt;/gmd:version&gt;
+                &lt;/gmd:MD_Format&gt;
+            &lt;/gmd:distributionFormat&gt;
+        &lt;/gmd:MD_Distribution&gt;
+    &lt;/gmd:distributionInfo&gt;
+    &lt;gmd:dataQualityInfo&gt;
+        &lt;gmd:DQ_DataQuality&gt;
+            &lt;gmd:scope&gt;
+                &lt;gmd:DQ_Scope&gt;
+                    &lt;gmd:level&gt;
+                        &lt;gmd:MD_ScopeCode codeList=&#34;http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode&#34; codeListValue=&#34;dataset&#34;&gt;dataset&lt;/gmd:MD_ScopeCode&gt;
+                    &lt;/gmd:level&gt;
+                &lt;/gmd:DQ_Scope&gt;
+            &lt;/gmd:scope&gt;
+            &lt;gmd:lineage&gt;
+                &lt;gmd:LI_Lineage&gt;
+                    &lt;gmd:statement&gt;
+                        &lt;gco:CharacterString&gt;INSPIRE Download Service&lt;/gco:CharacterString&gt;
+                    &lt;/gmd:statement&gt;
+                &lt;/gmd:LI_Lineage&gt;
+            &lt;/gmd:lineage&gt;
+        &lt;/gmd:DQ_DataQuality&gt;
+    &lt;/gmd:dataQualityInfo&gt;
+&lt;/gmd:MD_Metadata&gt;</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Extent</td>
+            <td class="value" >Latitude: 60.8433&deg; to 49.9553&deg; <br/> Longitude: -8.17167&deg; to 1.74944&deg;</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Spatial reference system</td>
+            <td class="value" >http://www.opengis.net/def/crs/EPSG/0/27700</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Dataset reference date</td>
+            <td class="value" >3/8/2014 (publication)</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Frequency of update</td>
+            <td class="value" >monthly</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Responsible party</td>
+            <td class="value" >Land Registry (publisher)</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Access constraints</td>
+            <td class="value" >Open Government Licence see  &#34;Use Constraints&#34;</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >ISO19139 resource type</td>
+            <td class="value" >dataset</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Metadata language</td>
+            <td class="value" >English</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Themes (secondary)</td>
+            <td class="value" >No value</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Temporal coverage</td>
+            <td class="value" >No value</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Schema/Vocabulary</td>
+            <td class="value" >No value</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Code list</td>
+            <td class="value" >No value</td>
+          </tr>
+          
+          <tr>
+            
+            <td class="key" >Service Level</td>
+            <td class="value" >No value</td>
+          </tr>
+          
+          
+          <tr>
+            
+            <td class="key">Coupled Services</td>
+            <td class="value">
+              
+              
+                <span>(none)</span>
+              
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+    
+
+    
+
+    
+    <br/>
+
+ <div id="comments-container">
+      <!-- TODO do not use id=comments! It's a duplicate id with Drupal's content. -->
+      <div style="height: 50px;" class="comments-spinner"></div>
+  </div>
+
+
+    
+
+    
+  </div>
+
+                    </div>
+                  </article>
+                
+              </div>
+            
+
+          </div>
+        
+      </div>
+    </div>
+
+    
+
+  <div class="footer">
+    <footer role="contentinfo" class="container">
+      <ul class="links"><li class="menu-531 first"><a href="/faq">FAQ</a></li>
+        <li class="menu-527"><a href="/code-conduct">Code of conduct</a></li>
+        <li class="menu-524"><a href="/accessibility-statement">Accessibility</a></li>
+        <li class="menu-528"><a href="/cookies-policy">Cookies policy</a></li>
+        <li class="menu-537"><a href="/privacy">Privacy</a></li>
+        <li class="menu-536"><a href="/moderation-policy">Moderation policy</a></li>
+        <li class="menu-520"><a href="/contact" title="">Contact</a></li>
+        <li class="menu-538 "><a href="/terms-and-conditions">Terms and conditions</a></li>
+        <li class="menu-538"><a href="/data/metadata-api-docs">API</a></li>
+        <li class="menu-538 last"><a href="/about">About</a></li>
+      </ul>
+      <div class="credits">
+        
+          <div class="credit">
+            <strong>Powered by:</strong><br/>
+            <a href="http://ckan.org/" title="CKAN Version:2.2b">
+              <div id="ckan-logo" class="retina-img">
+                <img src="/images/ckan-logo.png" alt="Powered By CKAN"/>
+              </div>
+            </a>
+          </div>
+        
+        
+  
+    
+  
+      </div>
+    </footer>
+
+  </div> <!-- /footer (jinja) -->
+
+  
+
+  
+
+      <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-10855508-1', 'auto');
+ga('send', 'pageview');
+//--><!]]>
+</script>
+  </body>
+</html>
